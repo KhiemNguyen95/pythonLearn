@@ -1,6 +1,3 @@
 print  ("khiem");
-if True:
-    print "ok"
-else:
-    print "no"
+a = 10
 
