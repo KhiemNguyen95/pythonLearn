@@ -1,0 +1,24 @@
+- install
+sudo apt-get install git
+git config --global user.name "name"
+git config --global user.email mail
+
+- set folder 
+git init
+-- check status
+git status
+
+-- add file  local
+git add {file name}
+git add *(all file)
+
+git commit -m "mo ta"
+
+--set repo git
+git remote add origin link git
+git remote
+
+git remote -v 
+
+-- push to git
+git push origin master
