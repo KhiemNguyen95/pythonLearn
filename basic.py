@@ -11,6 +11,7 @@ print "---------"
 print "dictionary"
 point = {'x': 1,'y': 2}
 print point ['x']
+print "-".join(point)
 point['z'] = 3
 print point
 print point.has_key('z')
