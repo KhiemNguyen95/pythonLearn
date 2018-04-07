@@ -7,6 +7,11 @@ def  sum (a, b) :
 c = sum (2, 3);
 print c
 print "---------"
+print "for"
+i = [0, 10]
+for j in xrange(0, 10):
+    print j
+print "---------"
 # dictionary
 print "dictionary"
 point = {'x': 1,'y': 2}
