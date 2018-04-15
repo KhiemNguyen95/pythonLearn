@@ -1,13 +1,14 @@
 # class
 class test():    
     def nhap(self):
-        self.s = input("nhap: ")
+        self.s = str(input("nhap: "))
+        print type(self.s)
     def xuat(self):
         print self.s
 
 a =  test()
 a.nhap()
-a.xuat()
+#a.xuat()
 #----------------------
 # class InputOutString(object):
 #     def __init__(self):
