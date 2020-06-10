@@ -1,11 +1,11 @@
 #dictionnary
-n = int(input("nhap n:"))
-print n
+n = int(input("input n:"))
+print (n)
 # n=3
 d =dict()
 for i in xrange(1, n+1):
     d[i] = i*i
-print d
+print (d)
 
 # ----------------
 # n = int(input("n ="))

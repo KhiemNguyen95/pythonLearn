@@ -7,9 +7,9 @@
 
 # ---------------------
 value = str(input("input:"))
-print value
+print (value)
 l = value.split(",")
-print l
+print (l)
 t = tuple(l)
 
-print t
+print (t)

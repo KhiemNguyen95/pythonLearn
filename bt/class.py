@@ -2,11 +2,11 @@
 class test():    
     def nhap(self):
         self.s = str(input("nhap: "))
-        print type(self.s)
+        print (type(self.s))
     def xuat(self):
-        print self.s
+        print (self.s)
 
-a =  test()
+a = test()
 a.nhap()
 #a.xuat()
 #----------------------
